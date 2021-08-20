@@ -66,3 +66,9 @@ body{
     margin-top: 15px;
     width: 100%;
 }
+
+.card .copyrights{
+    font-size: 0.7em;
+    padding-top: 15px;
+    font-style: italic;
+}

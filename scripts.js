@@ -72,6 +72,13 @@ const changeMusic = (index) => {
     songTitle.innerText = musics[index].name;
     playMusic();
     currentMusicIndex = index;
+
+    if ( audio.paused ) {
+        btnPlay.children[0].src = "assets/icons/play-circle.svg";
+    }
+    else{
+        btnPlay.children[0].src = "assets/icons/stop-circle.svg";
+    }
 }
 
 // Updating of song range and check if the song is ended
