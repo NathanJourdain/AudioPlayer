@@ -1,0 +1,68 @@
+/* Reset */
+* , ::before , ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+/* Main card */
+.card{
+    min-width: 300px;
+    max-width: 600px;
+    width : 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding : 20px;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+}
+
+.card #song-title{
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0 ;
+}
+
+.card #song-image{
+    width: 50%;
+}
+
+.card-body .btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.card-body .btn{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.btn img{
+    width: 50px;
+    height: 50px;
+}
+.btn:not(:nth-child(2)){
+    transform: scale(0.8);
+}
+.btn:not(:last-child){
+    padding-right: 10px;
+}
+
+.card-body #song-range{
+    margin-top: 15px;
+    width: 100%;
+}

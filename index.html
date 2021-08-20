@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="card">
+
+        <h1 id="song-title">Lorem, ipsum.</h1>
+
+        <img src="https://img.icons8.com/ios/452/add-song.png" alt="Image du titre" id="song-image">
+
+        <div class="card-body">
+            
+            <div class="btn-container">
+                
+                <div class="btn previous-btn">
+                    <img src="assets/icons/arrow-circle-left.svg" alt="previous music">
+                </div>
+    
+                <div class="btn play-btn">
+                    <img src="assets/icons/play-circle.svg" alt="Play/Stop music">
+                </div>
+                
+                <div class="btn next-btn">
+                    <img src="assets/icons/arrow-circle-right.svg" alt="next music">
+                </div>
+            
+            </div>
+
+            <input type="range" value="0" min="0" max="100" id="song-range">
+        
+        </div>
+    </div>
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>

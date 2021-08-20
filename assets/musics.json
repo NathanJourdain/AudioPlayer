@@ -1,0 +1,29 @@
+{
+    "musics" : [
+        {
+            "name" : "Sweet dreams",
+            "url": "assets/musics/sweet_dreams.mp3",
+            "img" : "assets/pictures/sweet_dreams.jpg"   
+        },
+        {
+            "name" : "L'aventurier",
+            "url": "assets/musics/l_aventurier.mp3",
+            "img" : "assets/pictures/l_aventurier.jpg"
+        },
+        {
+            "name" : "I'm so Excited",
+            "url": "assets/musics/i_m_so_excited.mp3",
+            "img" : "assets/pictures/i_m_so_excited.jpg"
+        },
+        {
+            "name" : "On va s'aimer",
+            "url": "assets/musics/on_va_saimer.mp3",
+            "img" : "assets/pictures/on_va_saimer.jpg"
+        },
+        {
+            "name" : "Take on Me",
+            "url": "assets/musics/take_on_me.mp3",
+            "img" : "assets/pictures/take_on_me.jpg"
+        }    
+    ]
+}
