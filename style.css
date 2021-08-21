@@ -36,6 +36,8 @@ body{
 
 .card #song-image{
     width: 50%;
+    aspect-ratio : 1 / 1;
+    background-color : red ;
 }
 
 .card-body .btn-container{
