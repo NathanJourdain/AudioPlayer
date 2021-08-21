@@ -44,7 +44,7 @@ btnNext.addEventListener("click", () => {
 
 // Event: Previous Button
 btnPrevious.addEventListener("click", () => {
-    if ( audio.currentTime > 1 && currentMusicIndex - 1 >= 0 ) {
+    if ( audio.currentTime < 1 && currentMusicIndex - 1 >= 0 ) {
         changeMusic(currentMusicIndex - 1);
     }
     else{
